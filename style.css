@@ -1,0 +1,421 @@
+         body {
+            background-color: #f8f9fa;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        
+        .hero-section {
+            background: #f8f9fa;
+            padding: 60px 0 40px 0;
+            font-family: "Poppins", sans-serif;
+            font-variant: extra-bold;
+        }
+        
+        .headline-box {
+            background: transparent;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .headline-text {
+            background: linear-gradient(135deg, #00E38C 0%, #00B6FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+            font-size: 2.8rem;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            margin: 0;
+            line-height: 1.2;
+            padding-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            padding-top: 10px;
+            }
+        
+        .container {
+            font-family: "Poppins", sans-serif;;
+            font-size: large; 
+        }
+        .container {
+            font-size: 20px;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            font-weight: regular;
+            margin-top: 20px;
+        }
+
+        .mode-selector {
+            margin-top: 20px;
+            padding: 30px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            width: 33.33%;
+            height: 100%;
+            background: linear-gradient(90deg, #00B6FF 0%, #00E38C 100%);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .mode-options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        .mode-option.inactive {
+            color: #6c757d;
+            background: transparent;
+            font-size: larger;
+            font-style: "Poppins", sans-serif;;
+        }
+
+        .mode-option.inactive:hover {
+            color: #495057;
+            background: rgba(0, 227, 140, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .mode-option.active {
+            background: linear-gradient(135deg, #00E38C 0%, #00B6FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+            font-size: larger;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            margin: 0;
+            line-height: 1.2;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .mode-option {
+            flex: 1;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .mode-description {
+            color: #495057;
+            font-size: medium;
+            line-height: 1.5;
+            max-width: 600px;
+            margin: 0 auto;
+            font-family:"Poppins", sans-serif;
+            margin-bottom: 20px;
+        }
+
+              .title {
+            background: linear-gradient(90deg, #0066ff 10%, #00cc66 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 1px;
+            font-size: 50px;
+            font-weight: bold;
+            
+        }
+        
+        .accordion-container {
+            margin-top: 10rem;
+            margin-left: 30rem;
+            max-width: 600px;
+            margin-right: 100px;
+        }
+
+        .accordion-item {
+            border-bottom: 1px solid #000;
+            padding: 1.5rem 0;
+            margin-left: 100px;
+        }
+
+        .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .accordion-content {
+            font-size: 16px;
+            color: #000;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .accordion-icon {
+            font-size: 18px;
+            color: #000;
+        }
+
+        .right-content {
+            position: absolute;
+            top: 12rem;
+            right: 5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 2rem;
+            margin-top: 2250px;
+        }
+
+        .phone-container {
+            width: 320px;
+            height: 680px;
+            background: transparent;
+            border-radius: 40px;
+            padding: 5px;
+            position: relative;
+            margin-right: 150px;
+            
+        }
+
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            position: relative;
+            margin-left: 0px;
+        }
+
+        .phone-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-left: 0px;
+        }
+
+        .award-badge {
+            background: #000;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            width: 120px;
+            height: fit-content;
+            margin-right: 100px;
+            padding-top: 10px;
+            
+        }
+
+        .award-badge .ux {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .award-badge .design {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .award-badge .awards {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .award-badge .nominated {
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+
+        .award-badge .year {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 1366px) {
+            .headline-text {
+                font-size: 2.4rem;
+            }
+
+            .title {
+                font-size: 42px;
+            }
+
+            .mode-options {
+                flex-wrap: wrap;
+                gap: 14px;
+            }
+
+            .mode-option {
+                flex: 1 1 30%;
+                min-width: 220px;
+                text-align: center;
+            }
+
+            .accordion-container {
+                margin-top: 6rem;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 800px;
+                padding: 0 24px;
+            }
+
+            .accordion-item {
+                margin-left: 0;
+            }
+
+            .right-content {
+                position: static;
+                margin-top: 3rem;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+
+            .phone-container {
+                width: 300px;
+                height: 640px;
+                margin-right: 0;
+            }
+
+            .award-badge {
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .headline-text {
+                font-size: 2.2rem;
+            }
+
+            .title {
+                font-size: 38px;
+            }
+
+            .mode-options {
+                gap: 12px;
+            }
+
+            .mode-description {
+                max-width: 90%;
+            }
+
+            .accordion-container {
+                margin-top: 6rem;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 720px;
+                padding: 0 24px;
+            }
+
+            .accordion-item {
+                margin-left: 0;
+            }
+
+            .right-content {
+                position: static;
+                margin-top: 3rem;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+
+            .phone-container {
+                width: 300px;
+                height: 640px;
+                margin-right: 0;
+            }
+
+            .award-badge {
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .headline-text {
+                font-size: 1.8rem;
+                line-height: 1.25;
+            }
+
+            .title {
+                font-size: 30px;
+            }
+
+            .mode-selector {
+                padding: 16px;
+            }
+
+            .mode-options {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .mode-option {
+                padding: 12px;
+            }
+
+            .mode-description {
+                max-width: 100%;
+                font-size: 0.95rem;
+                padding: 0 8px;
+            }
+
+            .accordion-container {
+                margin-top: 3rem;
+                max-width: 100%;
+                padding: 0 16px;
+            }
+
+            .accordion-header {
+                font-size: 20px;
+            }
+
+            .accordion-content {
+                font-size: 14px;
+            }
+
+            .right-content {
+                position: static;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                margin-top: 2rem;
+            }
+
+            .phone-container {
+                width: 260px;
+                height: 540px;
+            }
+
+            .award-badge {
+                width: auto;
+                padding: 8px 12px;
+            }
+        }
